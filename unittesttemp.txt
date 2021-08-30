@@ -1,0 +1,7 @@
+addImmediate r1 8
+addImmediate r2 9
+branchIfLess r1 r2 2
+halt 
+interrupt 0
+interrupt 1 
+halt 
